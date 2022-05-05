@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreText : MonoBehaviour
 {
     public Text text;
-    public GameObject tapDetectObj;
+    public GameObject tileSpawnerObj;
 
     void Start()
     {
@@ -18,8 +18,8 @@ public class ScoreText : MonoBehaviour
 
     void Update()
     {
-        TapDetector tapDetect = tapDetectObj.GetComponent<TapDetector>();
-        int score = tapDetect.score;
+        TileSpawner tileSpawner = tileSpawnerObj.GetComponent<TileSpawner>();
+        int score = tileSpawner.score;
         text.text = score.ToString();
     }
 }

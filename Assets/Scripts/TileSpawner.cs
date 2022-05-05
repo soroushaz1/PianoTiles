@@ -16,8 +16,12 @@ public class TileSpawner : MonoBehaviour
 
     public Vector2 tilePos = Vector2.zero;
 
+    public int score;
+
     void Start()
     {
+        score = Score.score;
+
         float height = Camera.main.orthographicSize * 2;
         float width = height * Screen.width / Screen.height;
 
@@ -32,6 +36,52 @@ public class TileSpawner : MonoBehaviour
         LoadAll();
     }
 
+    private void Update()
+    {
+        Timer -= Time.fixedDeltaTime;
+        int i = 0;
+        string timeString = Timer.ToString();
+
+        while (i < Input.touchCount)
+        {
+
+            if (Input.GetTouch(i).phase == TouchPhase.Began)
+            {
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position), Vector2.up, .1f);
+
+                if (hit.collider != null)
+                {
+
+                    if (hit.collider.tag == "Tile")
+                    {
+
+                        Destroy(hit.collider.gameObject);
+                        score++;
+                        Timer = 0.1f;
+
+                    }
+                }
+            }
+            if (Input.GetTouch(i).phase == TouchPhase.Stationary && Timer < .01f)
+            {
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position), Vector2.up, .1f);
+
+                if (hit.collider != null)
+                {
+
+                    if (hit.collider.tag == "Tile")
+                    {
+
+                        Destroy(hit.collider.gameObject);
+                        score++;
+                    }
+                }
+            }
+
+            ++i;
+
+        }
+    }
     void FixedUpdate()
     {
         //Timer -= Time.fixedDeltaTime;
@@ -105,15 +155,31 @@ public class TileSpawner : MonoBehaviour
         {
             
             if (rows[row].A)
+            {
                 tilePos = new Vector2(array[0] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
+                var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
+            }
+                
             if (rows[row].B)
+            {
                 tilePos = new Vector2(array[1] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
+                var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
+            }
+                
             if (rows[row].C)
+            {
                 tilePos = new Vector2(array[2] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
+                var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
+            }
+                
             if (rows[row].D)
+            {
                 tilePos = new Vector2(array[3] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
+                var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
+            }
+                
 
-            var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
+            
             
 
             

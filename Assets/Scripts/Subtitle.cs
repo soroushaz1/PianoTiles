@@ -132,7 +132,7 @@ public class Subtitle : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        //saveAll();
+        saveAll();
     }
 
     //public void ScaleAround(GameObject target, Vector3 pivot, Vector3 newScale)
