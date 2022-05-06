@@ -225,7 +225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &270236452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,6 +593,8 @@ MonoBehaviour:
   Timer: 0
   tileTrans: {fileID: 0}
   tilePos: {x: 0, y: 0}
+  score: 0
+  slider: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1655053005}
-  tapDetectObj: {fileID: 1940167965}
+  tileSpawnerObj: {fileID: 611053590}
 --- !u!1 &1817432849
 GameObject:
   m_ObjectHideFlags: 0

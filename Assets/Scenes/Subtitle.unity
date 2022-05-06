@@ -594,6 +594,8 @@ MonoBehaviour:
   Timer: 0
   tileTrans: {fileID: 0}
   tilePos: {x: 0, y: 0}
+  score: 0
+  slider: {fileID: 0}
 --- !u!114 &611053593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,6 +611,7 @@ MonoBehaviour:
   tilePrefab: {fileID: 687489856784910773, guid: 70821722d78b10740ab05bf2919177c2, type: 3}
   Timer: 0
   tileTrans: {fileID: 0}
+  pivot: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1655053005}
-  tapDetectObj: {fileID: 1940167965}
+  tileSpawnerObj: {fileID: 611053590}
 --- !u!1 &1817432849
 GameObject:
   m_ObjectHideFlags: 0

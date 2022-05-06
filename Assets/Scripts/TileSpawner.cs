@@ -18,6 +18,8 @@ public class TileSpawner : MonoBehaviour
 
     public int score;
 
+    public GameObject slider;
+
     void Start()
     {
         score = Score.score;
@@ -154,6 +156,7 @@ public class TileSpawner : MonoBehaviour
         for (int row = 0; row < 100; row++)
         {
             
+
             if (rows[row].A)
             {
                 tilePos = new Vector2(array[0] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);

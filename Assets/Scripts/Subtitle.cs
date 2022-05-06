@@ -12,7 +12,7 @@ public class TileData : MonoBehaviour
 public class Row
 {
     public bool A, B, C, D;
-    public float scale;
+    public int scale = 0;
 }
 
 public class Subtitle : MonoBehaviour
@@ -75,10 +75,31 @@ public class Subtitle : MonoBehaviour
                     {
                         var tile = hit.collider.GetComponent<TileData>();
                         //Debug.Log(tile.columnIndex);
-                        if (tile.columnIndex == 0) rows[tile.rowIndex].A = true;
-                        if (tile.columnIndex == 1) rows[tile.rowIndex].B = true;
-                        if (tile.columnIndex == 2) rows[tile.rowIndex].C = true;
-                        if (tile.columnIndex == 3) rows[tile.rowIndex].D = true;
+                        if (tile.columnIndex == 0)
+                        {
+                            rows[tile.rowIndex].A = true;
+                            rows[tile.rowIndex].scale = 1;
+                            
+                        }
+                            
+                        if (tile.columnIndex == 1)
+                        {
+                            rows[tile.rowIndex].B = true;
+                            rows[tile.rowIndex].scale = 1;
+                        }
+                            
+                        if (tile.columnIndex == 2)
+                        {
+                            rows[tile.rowIndex].C = true;
+                            rows[tile.rowIndex].scale = 1;
+                        }
+                            
+                        if (tile.columnIndex == 3)
+                        {
+                            rows[tile.rowIndex].D = true;
+                            rows[tile.rowIndex].scale = 1;
+                        }
+                            
 
 
                         Destroy(hit.collider.gameObject);
@@ -98,10 +119,38 @@ public class Subtitle : MonoBehaviour
                     {
                         var tile = hit.collider.GetComponent<TileData>();
                         //Debug.Log(tile.columnIndex);
-                        if (tile.columnIndex == 0) rows[tile.rowIndex].A = true;
-                        if (tile.columnIndex == 1) rows[tile.rowIndex].B = true;
-                        if (tile.columnIndex == 2) rows[tile.rowIndex].C = true;
-                        if (tile.columnIndex == 3) rows[tile.rowIndex].D = true;
+                        if (tile.columnIndex == 0)
+                        {
+                            rows[tile.rowIndex].A = true;
+                            rows[tile.rowIndex].scale = 3;
+                            if (rows[tile.rowIndex - 1].scale == 1)
+                                rows[tile.rowIndex - 1].scale = 2;
+                        }
+                            
+                        if (tile.columnIndex == 1)
+                        {
+                            rows[tile.rowIndex].B = true;
+                            rows[tile.rowIndex].scale = 3;
+                            if (rows[tile.rowIndex - 1].scale == 1)
+                                rows[tile.rowIndex - 1].scale = 2;
+                        }
+                            
+                        if (tile.columnIndex == 2)
+                        {
+                            rows[tile.rowIndex].C = true;
+                            rows[tile.rowIndex].scale = 3;
+                            if (rows[tile.rowIndex - 1].scale == 1)
+                                rows[tile.rowIndex - 1].scale = 2;
+                        }
+                            
+                        if (tile.columnIndex == 3)
+                        {
+                            rows[tile.rowIndex].D = true;
+                            rows[tile.rowIndex].scale = 3;
+                            if (rows[tile.rowIndex - 1].scale == 1)
+                                rows[tile.rowIndex - 1].scale = 2;
+                        }
+
 
 
                         Destroy(hit.collider.gameObject);
@@ -125,7 +174,7 @@ public class Subtitle : MonoBehaviour
         StreamWriter sw = new StreamWriter(@"E:\Unity Documents\text.txt");
         foreach (Row e in rows)
         {
-            sw.WriteLine(e.A + " " + e.B + " " + e.C + " " + e.D);
+            sw.WriteLine(e.A + " " + e.B + " " + e.C + " " + e.D + " " + e.scale);
         }
         sw.Close();
     }
