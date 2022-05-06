@@ -130,6 +130,23 @@ public class TileSpawner : MonoBehaviour
             {
                 rows[i].D = true;
             }
+            if (parts[4] == "0")
+            {
+                rows[i].scale = 0;
+            }
+            if (parts[4] == "1")
+            {
+                rows[i].scale = 1;
+            }
+            if (parts[4] == "2")
+            {
+                rows[i].scale = 2;
+            }
+            if (parts[4] == "3")
+            {
+                rows[i].scale = 3;
+            }
+
             i++;
 
         }
@@ -137,11 +154,11 @@ public class TileSpawner : MonoBehaviour
         SpawnTile();
         //for (int j = 0; j < 100; j++)
         //{
-        //    Debug.Log(rows[j].A.ToString() + rows[j].B.ToString() + rows[j].C.ToString() + rows[j].D.ToString());
+        //    Debug.Log(rows[j].A.ToString() + rows[j].B.ToString() + rows[j].C.ToString() + rows[j].D.ToString() + rows[j].scale.ToString());
         //}
-        
-        
-        
+
+
+
     }
 
     void SpawnTile()
@@ -157,25 +174,25 @@ public class TileSpawner : MonoBehaviour
         {
             
 
-            if (rows[row].A)
+            if (rows[row].A && rows[row].scale == 1)
             {
                 tilePos = new Vector2(array[0] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
                 var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
             }
                 
-            if (rows[row].B)
+            if (rows[row].B && rows[row].scale == 1)
             {
                 tilePos = new Vector2(array[1] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
                 var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
             }
                 
-            if (rows[row].C)
+            if (rows[row].C && rows[row].scale == 1)
             {
                 tilePos = new Vector2(array[2] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
                 var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
             }
                 
-            if (rows[row].D)
+            if (rows[row].D && rows[row].scale == 1)
             {
                 tilePos = new Vector2(array[3] * tileTrans.localScale.x + tileTrans.localScale.x / 2f, transform.position.y + row * 5f);
                 var g = Instantiate(tilePrefab, tilePos, Quaternion.identity, gameObject.transform);
