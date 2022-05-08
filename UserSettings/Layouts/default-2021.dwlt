@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 106
+  controlID: 117
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -148,14 +148,14 @@ MonoBehaviour:
     y: 428
     width: 1172.8
     height: 294.8
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 107
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 108
+  controlID: 57
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 491.19998
     height: 428
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -394,869 +394,9 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     detailsScroll: {x: 0, y: 0}
-    gitStatusEntries:
-    - path: .vsconfig
-      fullPath: E:\Unity Documents\Piano Tiles\.vsconfig
-      projectPath: .vsconfig
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Audio.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Audio.meta
-      projectPath: Assets\Audio.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3
-      projectPath: Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3.meta
-      projectPath: Assets\Audio\Gdaal & Erfan - Sarnevesht[128].mp3.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Audio\Homayoun Shajarian - Ba Man Sanama (128).mp3
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Audio\Homayoun Shajarian -
-        Ba Man Sanama (128).mp3
-      projectPath: Assets\Audio\Homayoun Shajarian - Ba Man Sanama (128).mp3
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Audio\Homayoun Shajarian - Ba Man Sanama (128).mp3.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Audio\Homayoun Shajarian -
-        Ba Man Sanama (128).mp3.meta
-      projectPath: Assets\Audio\Homayoun Shajarian - Ba Man Sanama (128).mp3.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs.meta
-      projectPath: Assets\Prefabs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\NewTilePrefab.prefab
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\NewTilePrefab.prefab
-      projectPath: Assets\Prefabs\NewTilePrefab.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\NewTilePrefab.prefab.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\NewTilePrefab.prefab.meta
-      projectPath: Assets\Prefabs\NewTilePrefab.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\TilesPrefab.prefab
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\TilesPrefab.prefab
-      projectPath: Assets\Prefabs\TilesPrefab.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\TilesPrefab.prefab.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\TilesPrefab.prefab.meta
-      projectPath: Assets\Prefabs\TilesPrefab.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\WallsPrefab.prefab
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\WallsPrefab.prefab
-      projectPath: Assets\Prefabs\WallsPrefab.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\WallsPrefab.prefab.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Prefabs\WallsPrefab.prefab.meta
-      projectPath: Assets\Prefabs\WallsPrefab.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes.meta
-      projectPath: Assets\Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameOver.unity
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameOver.unity
-      projectPath: Assets\Scenes\GameOver.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameOver.unity.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameOver.unity.meta
-      projectPath: Assets\Scenes\GameOver.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameScene.unity
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameScene.unity
-      projectPath: Assets\Scenes\GameScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\GameScene.unity.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameScene.unity.meta
-      projectPath: Assets\Scenes\GameScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\Subtitle.unity
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\Subtitle.unity
-      projectPath: Assets\Scenes\Subtitle.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\Subtitle.unity.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\Subtitle.unity.meta
-      projectPath: Assets\Scenes\Subtitle.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts.meta
-      projectPath: Assets\Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\BottomLine.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\BottomLine.cs
-      projectPath: Assets\Scripts\BottomLine.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\BottomLine.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\BottomLine.cs.meta
-      projectPath: Assets\Scripts\BottomLine.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\GoDown.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\GoDown.cs
-      projectPath: Assets\Scripts\GoDown.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\GoDown.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\GoDown.cs.meta
-      projectPath: Assets\Scripts\GoDown.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\LevelSpeed.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\LevelSpeed.cs
-      projectPath: Assets\Scripts\LevelSpeed.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\LevelSpeed.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\LevelSpeed.cs.meta
-      projectPath: Assets\Scripts\LevelSpeed.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\LoadGameScene.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\LoadGameScene.cs
-      projectPath: Assets\Scripts\LoadGameScene.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\LoadGameScene.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\LoadGameScene.cs.meta
-      projectPath: Assets\Scripts\LoadGameScene.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\PlayAudio.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\PlayAudio.cs
-      projectPath: Assets\Scripts\PlayAudio.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\PlayAudio.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\PlayAudio.cs.meta
-      projectPath: Assets\Scripts\PlayAudio.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Score.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Score.cs
-      projectPath: Assets\Scripts\Score.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Score.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Score.cs.meta
-      projectPath: Assets\Scripts\Score.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\ScoreText.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\ScoreText.cs
-      projectPath: Assets\Scripts\ScoreText.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\ScoreText.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\ScoreText.cs.meta
-      projectPath: Assets\Scripts\ScoreText.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Subtitle.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Subtitle.cs
-      projectPath: Assets\Scripts\Subtitle.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Subtitle.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Subtitle.cs.meta
-      projectPath: Assets\Scripts\Subtitle.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\TapDetector.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TapDetector.cs
-      projectPath: Assets\Scripts\TapDetector.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\TapDetector.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TapDetector.cs.meta
-      projectPath: Assets\Scripts\TapDetector.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\TileSpawner.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs
-      projectPath: Assets\Scripts\TileSpawner.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\TileSpawner.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs.meta
-      projectPath: Assets\Scripts\TileSpawner.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\WallsPlacement.cs
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\WallsPlacement.cs
-      projectPath: Assets\Scripts\WallsPlacement.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\WallsPlacement.cs.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\WallsPlacement.cs.meta
-      projectPath: Assets\Scripts\WallsPlacement.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings.meta
-      projectPath: Assets\Settings.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Lit2DSceneTemplate.scenetemplate
-      projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-      projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Renderer2D.asset
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Renderer2D.asset
-      projectPath: Assets\Settings\Renderer2D.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Renderer2D.asset.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Renderer2D.asset.meta
-      projectPath: Assets\Settings\Renderer2D.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Scenes.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Scenes.meta
-      projectPath: Assets\Settings\Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Scenes\URP2DSceneTemplate.unity
-      projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-      projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\UniversalRP.asset
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\UniversalRP.asset
-      projectPath: Assets\Settings\UniversalRP.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Settings\UniversalRP.asset.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Settings\UniversalRP.asset.meta
-      projectPath: Assets\Settings\UniversalRP.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Sprites.meta
-      projectPath: Assets\Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\bg.png
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Sprites\bg.png
-      projectPath: Assets\Sprites\bg.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\bg.png.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\Sprites\bg.png.meta
-      projectPath: Assets\Sprites\bg.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\UniversalRenderPipelineGlobalSettings.asset
-      projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-      fullPath: E:\Unity Documents\Piano Tiles\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-      projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: E:\Unity Documents\Piano Tiles\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: E:\Unity Documents\Piano Tiles\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\boot.config
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\boot.config
-      projectPath: ProjectSettings\boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\BurstAotSettings_Android.json
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\BurstAotSettings_Android.json
-      projectPath: ProjectSettings\BurstAotSettings_Android.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\CommonBurstAotSettings.json
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\CommonBurstAotSettings.json
-      projectPath: ProjectSettings\CommonBurstAotSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NetworkManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\NetworkManager.asset
-      projectPath: ProjectSettings\NetworkManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\SceneTemplateSettings.json
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\SceneTemplateSettings.json
-      projectPath: ProjectSettings\SceneTemplateSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ShaderGraphSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\ShaderGraphSettings.asset
-      projectPath: ProjectSettings\ShaderGraphSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimelineSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\TimelineSettings.asset
-      projectPath: ProjectSettings\TimelineSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\URPProjectSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\URPProjectSettings.asset
-      projectPath: ProjectSettings\URPProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: E:\Unity Documents\Piano Tiles\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: E:\Unity Documents\Piano Tiles\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: E:\Unity Documents\Piano Tiles\UserSettings\Search.settings
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+    gitStatusEntries: []
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-05-05T15:39:41.044+04:30
+      updatedTimeString: 2022-05-08T13:47:10.608+04:30
       cacheType: 6
     lastFileLogChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -1296,12 +436,12 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -1312,8 +452,19 @@ MonoBehaviour:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1322,7 +473,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1337,8 +508,30 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1347,7 +540,37 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1362,34 +585,38 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-06T23:15:20.566+04:30
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-06T22:25:20.282+04:30
+      cacheType: 1
     currentBranch:
-      name: 
-      tracking: 
+      name: master
+      tracking: origin/master
     currentRemote:
-      name: 
-      url: 
+      name: origin
+      url: https://github.com/soroushaz1/PianoTiles.git
       login: 
       user: 
       host: 
       function: 0
       token: 
-    localBranches: []
-    remoteBranches: []
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -1402,12 +629,30 @@ MonoBehaviour:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -1430,18 +675,90 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-06T22:25:20.282+04:30
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-06T23:15:45.934+04:30
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-06T23:15:19.964+04:30
+      cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 2b74e7ec2b9232afc3eff2596c647fd47614de2d
+      mergeA: 
+      mergeB: 
+      authorName: soroush
+      authorEmail: soroushzendedel1@gmail.com
+      commitEmail: soroushzendedel1@gmail.com
+      commitName: soroush
+      summary: First commit, empty project and .gitignore
+      description: 
+      timeString: 2022-05-06T23:06:59.000+04:30
+      commitTimeString: 2022-05-06T23:06:59.000+04:30
+      changes:
+      - path: Assets\Scripts\TileSpawner.cs
+        fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs
+        projectPath: Assets\Scripts\TileSpawner.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\Unity Documents\Piano Tiles\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 93b5fcc2384e309f207dd73f1e875169b9ce45cc
+      mergeA: 
+      mergeB: 
+      authorName: soroush
+      authorEmail: soroushzendedel1@gmail.com
+      commitEmail: soroushzendedel1@gmail.com
+      commitName: soroush
+      summary: First commit, empty project and .gitignore
+      description: 
+      timeString: 2022-05-06T15:56:32.000+04:30
+      commitTimeString: 2022-05-06T15:56:32.000+04:30
+      changes:
+      - path: Assets\Scenes\GameScene.unity
+        fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameScene.unity
+        projectPath: Assets\Scenes\GameScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Subtitle.unity
+        fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\Subtitle.unity
+        projectPath: Assets\Scenes\Subtitle.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Subtitle.cs
+        fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Subtitle.cs
+        projectPath: Assets\Scripts\Subtitle.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\TileSpawner.cs
+        fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs
+        projectPath: Assets\Scripts\TileSpawner.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: E:\Unity Documents\Piano Tiles\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: E:\Unity Documents\Piano Tiles\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 24de9321fdf6e574f13603ade1d734427e39d7b9
       mergeA: 
       mergeB: 
@@ -2388,14 +1705,86 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-05-05T15:39:41.086+04:30
+      updatedTimeString: 2022-05-06T23:15:20.634+04:30
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-05-05T15:39:41.199+04:30
+      updatedTimeString: 2022-05-06T23:15:52.034+04:30
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 2b74e7ec2b9232afc3eff2596c647fd47614de2d
+        mergeA: 
+        mergeB: 
+        authorName: soroush
+        authorEmail: soroushzendedel1@gmail.com
+        commitEmail: soroushzendedel1@gmail.com
+        commitName: soroush
+        summary: First commit, empty project and .gitignore
+        description: 
+        timeString: 2022-05-06T23:06:59.000+04:30
+        commitTimeString: 2022-05-06T23:06:59.000+04:30
+        changes:
+        - path: Assets\Scripts\TileSpawner.cs
+          fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs
+          projectPath: Assets\Scripts\TileSpawner.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\Unity Documents\Piano Tiles\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 93b5fcc2384e309f207dd73f1e875169b9ce45cc
+        mergeA: 
+        mergeB: 
+        authorName: soroush
+        authorEmail: soroushzendedel1@gmail.com
+        commitEmail: soroushzendedel1@gmail.com
+        commitName: soroush
+        summary: First commit, empty project and .gitignore
+        description: 
+        timeString: 2022-05-06T15:56:32.000+04:30
+        commitTimeString: 2022-05-06T15:56:32.000+04:30
+        changes:
+        - path: Assets\Scenes\GameScene.unity
+          fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\GameScene.unity
+          projectPath: Assets\Scenes\GameScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Subtitle.unity
+          fullPath: E:\Unity Documents\Piano Tiles\Assets\Scenes\Subtitle.unity
+          projectPath: Assets\Scenes\Subtitle.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Subtitle.cs
+          fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\Subtitle.cs
+          projectPath: Assets\Scripts\Subtitle.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\TileSpawner.cs
+          fullPath: E:\Unity Documents\Piano Tiles\Assets\Scripts\TileSpawner.cs
+          projectPath: Assets\Scripts\TileSpawner.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: E:\Unity Documents\Piano Tiles\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: E:\Unity Documents\Piano Tiles\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 24de9321fdf6e574f13603ade1d734427e39d7b9
         mergeA: 
         mergeB: 
@@ -3341,7 +2730,7 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 2
+      selectedIndex: 4
     selectedEntry:
       commitID: 22a212e2dde18bccb3d0e675b318f7ce6dbf6210
       mergeA: 
@@ -3509,14 +2898,14 @@ MonoBehaviour:
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-05-08T13:46:13.085+04:30
+      cacheType: 1
     metricsEnabled: 1
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
-    repositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/soroushaz1/PianoTiles.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/soroushaz1/PianoTiles.git
     scroll: {x: 0, y: 0}
     userSettingsView:
       gitName: soroush
@@ -3525,7 +2914,7 @@ MonoBehaviour:
       newGitEmail: soroushzendedel1@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-05-05T11:28:03.792+04:30
+        updatedTimeString: 2022-05-08T13:46:11.661+04:30
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -3579,7 +2968,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/soroushaz1/PianoTiles.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -3590,13 +2979,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-05-05T15:30:03.144+04:30
+    updatedTimeString: 2022-05-06T22:25:20.282+04:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-05-05T15:30:03.298+04:30
+    updatedTimeString: 2022-05-06T23:16:32.353+04:30
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-05-05T15:30:30.536+04:30
+    updatedTimeString: 2022-05-06T23:16:32.304+04:30
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3674,9 +3063,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 1a6d0000
-    m_LastClickedID: 27930
-    m_ExpandedIDs: 00000000866b000000ca9a3bffffff7f
+    m_SelectedIDs: 546d0000
+    m_LastClickedID: 27988
+    m_ExpandedIDs: 000000007e6b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3704,7 +3093,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000866b0000
+    m_ExpandedIDs: 000000007e6b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3729,8 +3118,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c46d0000
-    m_LastClickedInstanceID: 28100
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a46a0000
     m_RenameOverlay:
@@ -3795,7 +3184,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 441.59998
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -3832,9 +3221,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e06d0000
-      m_LastClickedID: 28128
-      m_ExpandedIDs: 3cf7ffff20fbffffd66d0000
+      m_SelectedIDs: ac070000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4105,9 +3494,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 12.75, z: 0}
+    m_Target: {x: 1017.76917, y: 1409.2618, z: -24.401222}
     speed: 2
-    m_Value: {x: 0, y: 12.75, z: 0}
+    m_Value: {x: 1017.76917, y: 1409.2618, z: -24.401222}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4158,9 +3547,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 1307.0105
     speed: 2
-    m_Value: 10
+    m_Value: 1307.0105
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -4244,7 +3633,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -4257,7 +3646,7 @@ MonoBehaviour:
       y: 21
       width: 389.20007
       height: 386
-    m_Scale: {x: 0.18847658, y: 0.18847656}
+    m_Scale: {x: 0.19873047, y: 0.19873047}
     m_Translation: {x: 194.60004, y: 193}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -4265,12 +3654,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1032.4893
-      y: -1024
-      width: 2064.9785
-      height: 2048
+      x: -979.2159
+      y: -971.1646
+      width: 1958.4318
+      height: 1942.3292
     m_MinimalGUI: 1
-  m_defaultScale: 0.18847656
+  m_defaultScale: 0.19873047
   m_LastWindowPixelSize: {x: 486.5001, y: 508.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
